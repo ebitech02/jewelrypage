@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna's Jewelry Store</title>
+    <link rel="stylesheet" href="/build/output.css">
+    <script src="https://kit.fontawesome.com/2455c7eb2a.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-slate-100 font-mono text-black min-h-screen">
+    <header class="w-full h-screen bg-cover" style="background-image: url(https://media.tiffany.com/is/image/tiffanydm/2022_LE-LP-50-50-EngagementRings-Desktop?$tile$&wid=1088&hei=1360&fmt=webp);">
+
+        <div class="container flex justify-between">
+
+          <button id="toggle" class="lg:hidden fixed">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 bg-black text-white lg:bg-none ">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            </button>
+
+        <nav id="nav" class="fixed top-10 -left-full bottom-0 w-52 md:w-80 bg-white lg:static lg:bg-none lg:w-0 transition-all" >
+          <ul class="lg:flex lg:justify-between">
+         <li>
+          <a class="block p-3 lg:pl-6 text-2xl hover:underline" href="#">Home</a>
+        </li>
+         <li>
+          <a class="block p-3 lg:pl-6 text-2xl hover:underline" href="#about">About</a>
+        </li>
+         <li>
+          <a class="block p-3 lg:pl-6 text-2xl hover:underline" href="#footer">Delivery</a>
+         </li>
+         <li>
+         <a class="block p-3 lg:pl-6 text-2xl hover:underline"  href="#footer">Payment</a>
+         </li>
+         <li>
+         <a class="block p-3 lg:pl-6 text-2xl hover:underline" href="#review">Reviews</a>
+         </li>
+         <li>
+         <a class="block p-3 lg:pl-6 text-2xl hover:underline" href="#footer">Store Address</a>
+         </li>
+          </ul>
+        </nav>
+      
+      <div class="hidden lg:block lg:pt-7">
+        <i class="pr-2 text-2xl hover:cursor-pointer hover:-translate-y-4 fa-brands fa-instagram"></i>
+        <i class="pr-2 text-2xl hover:cursor-pointer hover:-translate-y-4 fa-brands fa-facebook"></i>
+        <i class="pr-2 text-2xl hover:cursor-pointer hover:-translate-y-4 fa-brands fa-telegram"></i>
+        <i class="pr-2 text-2xl hover:cursor-pointer hover:-translate-y-4 fa-solid fa-phone"></i>
+      </div>
+      
+      </div> 
+        <div class="text-center pt-48 lg:hover:cursor-pointer">
+        <h1 class="font-semibold text-8xl text-white">A N N A</h1>
+      <p class="text-3xl text-white lg:ml-64">jewelry</p>
+      </div>
+
+      <script type="text/javascript" src="/build/script.js"></script>
+    </header>
+
+     <section class="p-8">
+        <div class="mt-14 m-5 flex flex-col-reverse md:mb-8 md:mx-10 md:grid md:grid-cols-2 md:place-content-center md:gap-4 lg:grid lg:grid-cols-2 lg:place-content-center lg:mx-72 ">
+            <div>
+                <h2 class="text-5xl" id="about">ABOUT US</h2>
+                <p>We are a young company, founded in 2021, but already managed to win the hearts of many. We are loved for impeccable quality, trendy design and a special approach to each our customer.</p>
+                <br>
+                
+                <p>In our products we use only high-quality materials, all of which are hypoallergenic and waterproof.</p>
+                <br>
+                
+                <button class="border py-4 px-7 bg-blue-600 text-white rounded-md hover:opacity-50 my-4 ">Read our story</button>
+            </div>
+            <div>
+                <img class="w-80 h-96 " src="/images/240_F_185483096_OlUSvFFYAwYxyYfPKV7je6oPoGyaEIwT.jpg">
+            </div>
+        </div>
+   </section>
+ 
+   <section class="flex flex-col items-center pb-5">
+    <p class="lg:relative right-80 p-2">
+      New Arrivals: <span class="block underline hover:opacity-40"><a href="#">see all</a></span>
+    </p>
+    <div class="grid grid-cols-1 place-content-center gap-3 md:flex md:flex-row md:justify-center md:gap-6 lg:max-w-4xl">
+      <div>
+        <figure>
+          <img class="group-hover:animate-spin translate-x-4" src="/images/240_F_104011148_t19gKCi4ceeaSN7yzTvbU0qW1N1ztctd.jpg">
+            <figcaption class="mx-4">Ring<span class="ml-44"><i class="fa-regular fa-heart"></i></span></figcaption>
+            <p class="mx-4">Diamond Ring<span class="block">$6000</span></p>
+           </figure>
+           
+      </div>
+      <div>
+        <figure>
+          <img src="/images/240_F_186987998_P5kBncJynKCYwCH5dlGyQvsgJj6XyDiD.jpg">
+          <figcaption class="mx-2">Ring<span class="ml-44"><i class="fa-regular fa-heart"></i></span></figcaption>
+          <p class="mx-2">Diamond Ring<span class="block">$6000</span></p>
+           </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="/images/240_F_168180726_VbmkGAvgeqUdtms2pLWORBEyHQkeZJcu.jpg">
+          <figcaption class="mx-2">Ring<span class="ml-44"><i class="fa-regular fa-heart"></i></span></figcaption>
+          <p class="mx-2">Diamond Ring<span class="block">$6000</span></p>
+           </figure>
+      </div>
+    </div>
+   
+       <div class= "flex flex-col-reverse p-5 gap-4 mt-14 mb-5 md:mb-8 md:mx-20 md:grid md:grid-cols-2 md:place-content-center md:gap-4 lg:grid lg:grid-cols-2 lg:place-content-center lg:mx-60 lg:max-w-3xl">
+        <div>
+        <figure>
+          <img class="w-80 h-96 rounded-tr-3xl px-5 md:px-0" src="/images/240_F_124049201_6lcG6ymeXVKoOh4z7wgZBdo1S1j89xw5.jpg">
+        </figure>
+       </div>
+        <div>
+          <h3 class="p-1 lg:relative lg:right-60 text-4xl">WINTER  <span class="ml-10">February/23</span><br>COLLECTION</br></h3>
+          <p class="p-2">For this collection our designers were inspired by the incredible winter landscape of cold Norway also they were inspired by cozy mountain villages in Austria and this...</p>
+          <button class="border py-2 px-7 bg-blue-500 text-white rounded-md ml-3 hover:opacity-50">see more</button>
+        </div>
+        </div>
+   </section> 
+
+    <section class="grid grid-cols-1 place-content-center px-5 lg:pt-10">
+        <div>
+          <div class="lg:absolute lg:left-20 xl:left-56">
+            <h4 class="font-semibold text-4xl">BIG Sales</h4>
+            <p class="text-2xl">Our special<br>offers:</p>
+            <button class="border py-2 px-7 bg-blue-500 text-white rounded-md hover:opacity-50">see more</button>
+          </div>
+        
+
+        <div class="flex flex-row gap-4 justify-center pt-2">
+        <div>
+         <figure>
+           <img class="w-50 h-50" src="/images/pic5.jpg">
+           <figcaption class="mx-2">Ring<span class="ml-20 md:ml-44"><i class="hover:animate-pulse transition-all hover:cursor-pointer fa-regular fa-heart"></i></span></figcaption>
+          <p class="mx-2">Diamond Ring<span class="block">$6000</span></p>
+         </figure>
+        </div>
+        <div>
+         <figure>
+           <img class="w-50 h-50" src="/images/pic7.jpg">
+           <figcaption class="mx-2">Ring<span class="ml-20 md:ml-44"><i class="hover:animate-pulse transition-all hover:cursor-pointer fa-regular fa-heart"></i></span></figcaption>
+          <p class="mx-2">Diamond Ring<span class="block">$6000</span></p>
+         </figure>
+        </div>
+        </div>
+
+        <div class="flex flex-row gap-4 justify-center pt-5">
+        <div>
+         <figure>
+           <img class="w-50 h-50" src="/images/pic3.jpg">
+           <figcaption class="mx-2">Ring<span class="ml-20 md:ml-44"><i class="hover:animate-pulse transition-all hover:cursor-pointer fa-regular fa-heart"></i></span></figcaption>
+          <p class="mx-2">Diamond Ring<span class="block">$6000</span></p>
+         </figure>
+        </div>
+        <div>
+         <figure>
+           <img class="w-50 h-50" src="/images/pic4.jpg">
+           <figcaption class="mx-2">Ring<span class="ml-20 md:ml-44"><i class="hover:animate-pulse transition-all hover:cursor-pointer fa-regular fa-heart"></i></span></figcaption>
+          <p class="mx-2">Diamond Ring<span class="block">$6000</span></p>
+         </figure>
+        </div>
+        </div>
+        </div>
+      </section>
+ 
+       <section class="mt-6 lg:mt-16 grid place-content-center">
+
+        <h4 class="text-5xl text-center p-3">OUR <span class="">ADVANTAGES</span></h4>
+
+        <div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-2 lg:gap-12 ">
+        <div class="text-lg p-4">
+        <ul class="list-disc w-full px-3 lg:w-96 lg:relative lg:bottom-32">
+          <li class="mb-5">You can order a product according to your personal design from us</li>
+          <li class="mb-5">all products are made to order according to your personal measurements</li>
+          <li class="mb-5">high quality materials, they are waterproof</li>
+          <li class="mb-5">original designs, such products you will only find in our shops </li>
+          <li class="mb-5">we provide a guarantee, a certificate for each of our products</li>
+        </ul>
+        </div>
+        <div class="">
+          <figure>
+            <img class="w-80 h-96 mt-6" src="/images/prtty.jpg">
+          </figure>
+          <div class="">
+            <figure>
+              <img class="w-80 h-96 mt-6 md:relative z-10 md:bottom-36 md:right-16" src="/images/240_F_185483003_p7qPV6l2GyzXuTC8uUjgadvvn3q9vKpa.jpg">
+            </figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="p-5 mb-10 gird place-content-center sm:grid sm:place-content-center md:grid md:place-content-center lg:grid lg:place-content-center lg:mx-auto">
+
+        <h4 class="text-5xl text-center p-5" id="review">FEEDBACK <span class="">FROM OUR CUSTOMERS</span></h4>
+        
+        <div class="flex flex-col gap-4 md:flex md:flex-row ">
+        <div>
+          <figure class="">
+            <img class="rounded-tr-2xl h-96 md:mt-10" src="/images/sad.jpg">
+          </figure>
+        </div>
+
+           <div class="flex flex-col lg:grid lg:grid-cols-2 lg:gap-4">
+        <div class="text-white bg-blue-600  w-80 rounded-xl p-3 lg:mt-10">
+           <h5>Phoebe</h5>
+          <p>Excellent quality and very fast delivery. I was also consulted on all issues, which i really liked. It is clear that these people know their tasks. I highly recommend!</p>
+        </div>
+
+          <div class="text-white bg-blue-600  w-80 rounded-xl p-3 mt-4 lg:relative lg:top-28">
+          <h5>Sarah</h5>
+          <p>Excellent quality and very fast delivery. I was also consulted on all issues, which i really liked. It is clear that these people know their tasks. I highly recommend!</p>
+          </div>
+
+          <div class="text-white bg-blue-600  w-80 rounded-xl p-3 mt-4">
+          <h5>Kate</h5>
+          <p>Excellent quality and very fast delivery. I was also consulted on all issues, which i really liked. It is clear that these people know their tasks. I highly recommend!</p>
+
+          </div>
+        </div>
+        </div>
+
+      </section> 
+
+      <footer class="pt-20 px-1">
+        <div class="text-center">
+        <h4 class="text-2xl pb-10" id="footer">ANNA <span class="block lg:ml-28">jewelry</span></h4>
+        <p class="text-lg">18 Oxford St. London, UK<br>
+        T. +44820940024 E. info@annajewerly.uk </p>
+        <br>
+        
+        <p class="text-lg">Subscribe to our newsletter for more news</p>
+        <br>
+        <input class="py-3 px-14 outline-none text-black" type="email" name="email" placeholder="Email"><button class="p-3 text-white bg-blue-500 hover:opacity-50">SUBMIT</button>
+        <br>
+        <br>
+        <div class="text-lg">
+        <a class="hover:underline" href="#">INSTAGRAM</a>
+        <a class="hover:underline" href="#">FACEBOOK</a>
+        </div>
+        </div>
+        <hr>
+        <p class="text-lg text-center p-5">2021 Annajewerly|All rights reserved</p>
+      </footer> 
+
+</body>
+</html>
